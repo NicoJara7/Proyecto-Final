@@ -113,13 +113,11 @@ const Form = () => {
     return Swal.fire("Exito", "operacion Guardada", "success");
   };
   
-const formulario2 = document.getElementById("formulario2")
-console.log(formulario2);
 
   return (
     <>
       <h2 className={FormStyle.titulo}>Cotizador de Viajes</h2>
-      {load && <p className={FormStyle.cargando}>Cargando</p>}
+      {load && <p className={FormStyle.cargando}>Cargando...</p>}
       {!load && (
         <form onSubmit={Cotizar} className={FormStyle.formularioprincipal} >
           <fieldset>

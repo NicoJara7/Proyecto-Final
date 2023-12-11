@@ -5,6 +5,8 @@
   box-sizing: border-box;
 }
 
+
+
 header {
   width: 100%;
   height: 10%;
@@ -20,18 +22,22 @@ header a {
   color: #fff;
 }
 
-main {
-  width: 100%;
-  height: 100%;
-  background-image: url(correo.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+main{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
+
 
 
 body {
   width: 100vw;
   height: 100vh;
+  background-image: url(correo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
 }
 
 .formularioprincipal {
@@ -106,11 +112,16 @@ button {
   border-radius: 5px;
   outline: none;
   border: none;
+  cursor: pointer;
 }
 
 .cargando{
-  width: 100%;
-  height: 100%;
-  outline: 3px solid #000;
+  background-color:#161a35 ;
+  padding: 20px;
+  color: #fff;
   text-align: center;
+  margin: auto;
+  font-size: 1.5rem;
+  width:50%;
+  border-radius: 15px;
 }
