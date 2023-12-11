@@ -47,7 +47,6 @@ const Historial = () => {
           </li>
         ))}
       </ul>
-   <Link to="/">Volver</Link>
     </>
   );
 };

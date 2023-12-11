@@ -166,14 +166,13 @@ console.log(formulario2);
             />
           </fieldset>
           <button type="submit" className="boton-cotizar">Cotizar</button>    
-        </form>
-        {total && (<form className={FormStyle.formulariosecundario} id="formulario2" onSubmit={(e)=> e.preventDefault()}>
+        </form>     
+      )}
+      {total && (<form className={FormStyle.formulariosecundario} id="formulario2" onSubmit={(e)=> e.preventDefault()}>
         <h2>El Valor Del Envio Es: {total.toFixed(2)}</h2>
         <button type="button" onClick={guardar}>Guardar</button>
 
         </form>)}
-      )}
-      
     </>
   );
 };
