@@ -1,0 +1,44 @@
+.borrartodo{
+    margin: 50px;
+    background-color: #161a30;
+    color: #fff;
+    padding: 15px;
+    cursor:pointer;
+}
+
+.titulo{
+    font-size: 2.3rem;
+}
+
+
+li{
+    padding: 30px 40px;
+    gap: 10px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    background-color: #161a30;
+    font-size: 1.2rem;
+    color: #fff;
+    border-radius: 10px;
+    
+    
+}
+
+li button{
+    border-radius: 3px;
+}
+
+ul{
+    gap: 10px;
+    margin: auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}

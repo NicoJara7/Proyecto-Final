@@ -1,0 +1,28 @@
+[
+  
+  {
+    "idEnvio": 1,
+    "envio": "estandar",
+    "factor": 1.3
+  },
+  {
+    "idEnvio": 2,
+    "envio": "express",
+    "factor": 1.6
+  },
+  {
+    "idEnvio": 3,
+    "envio": "prioritario",
+    "factor": 1.8
+  },
+  {
+    "idEnvio": 4,
+    "envio": "En el dia",
+    "factor": 2.3
+  },
+  {
+    "idEnvio": 5,
+    "envio": "Envio Economico",
+    "factor": 1.2
+  }
+]
